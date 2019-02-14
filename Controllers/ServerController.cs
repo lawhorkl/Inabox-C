@@ -26,7 +26,8 @@ namespace Inabox.Controllers
                     Name = "Item1",
                     Hostname = "localhost",
                     Port = 5001,
-                    Active = false
+                    Active = false,
+                    History = new List<ServerHistory>()
                 });
                 Console.WriteLine("called");
                 _context.SaveChanges();

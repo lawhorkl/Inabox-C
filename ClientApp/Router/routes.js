@@ -1,6 +1,7 @@
 import Home from "../Components/Home.vue";
-import ServerList from "../Components/Servers/ServerList.vue";
-import Server from "../Components/Servers/Server.vue";
+import ServerIndex from "../Components/Servers/Index.vue";
+import ServerShow from "../Components/Servers/Show.vue";
+import ServerNew from "../Components/Servers/New.vue"
 
 export const routes = [
   {
@@ -10,15 +11,22 @@ export const routes = [
     display: "Home"
   },
   {
-    name: "ServerList",
+    name: "Server Index",
     path: "/servers",
-    component: ServerList,
+    component: ServerIndex,
     display: "All Servers"
   },
   {
-    name: "Server",
-    path: "/server/:id",
-    component: Server,
+    name: "New Server",
+    path: "/servers/new",
+    component: ServerNew,
+    display: "New Server Page"
+  },
+  {
+    name: "Get Server",
+    path: "/servers/:id",
+    component: ServerShow,
     display: "Server Show Page"
-  }
+  },
+
 ];

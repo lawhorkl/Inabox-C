@@ -5,8 +5,8 @@
         <v-spacer></v-spacer>
         <v-toolbar-items hidden-sm-and-down>
             <v-btn flat :to="'/servers'">Server List</v-btn>
-            <v-btn flat :to="'/server/10'">Server Show</v-btn>
-            <v-btn flat>Link 3</v-btn>
+            <v-btn flat :to="'/servers/34'">Server Show</v-btn>
+            <v-btn flat :to="'/servers/new'">New Server</v-btn>
         </v-toolbar-items>
     </v-toolbar>
 </template>

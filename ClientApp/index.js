@@ -12,7 +12,8 @@ import babelPolyfill from "babel-polyfill";
 import 'vue-toastr-2/dist/vue-toastr-2.min.css';
 import VueToastr2 from "vue-toastr-2";
 window.toastr = require('toastr');
-
+import "ag-grid-community/dist/styles/ag-grid.css";
+import "ag-grid-community/dist/styles/ag-theme-balham.css";
 
 Vue.use(Vuetify);
 Vue.use(VueCookie);
