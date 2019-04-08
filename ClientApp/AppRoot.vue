@@ -1,12 +1,8 @@
 <template>
-    <v-app>
-        <v-container>
-            <app-nav-bar></app-nav-bar>
-            <v-content>
-                <router-view></router-view>
-            </v-content>
-        </v-container>
-    </v-app>
+    <div>
+        <app-nav-bar></app-nav-bar>
+        <router-view />
+    </div>
 </template>
 
 <script>

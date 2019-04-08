@@ -1,5 +1,5 @@
 <template>
-
+<div>new server page</div>
 </template>
 
 <script>

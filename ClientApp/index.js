@@ -1,7 +1,8 @@
 import Vue from "vue";
+import VueBootstrap from "bootstrap-vue";
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 import axios from "axios";
-import Vuetify from "vuetify";
-import "vuetify/dist/vuetify.min.css";
 import App from "./AppRoot.vue";
 import router from "./Router/index";
 import VueCookie from "vue-cookie";
@@ -12,10 +13,9 @@ import babelPolyfill from "babel-polyfill";
 import 'vue-toastr-2/dist/vue-toastr-2.min.css';
 import VueToastr2 from "vue-toastr-2";
 window.toastr = require('toastr');
-import "ag-grid-community/dist/styles/ag-grid.css";
-import "ag-grid-community/dist/styles/ag-theme-balham.css";
 
-Vue.use(Vuetify);
+
+Vue.use(VueBootstrap);
 Vue.use(VueCookie);
 Vue.use(VueToastr2);
 
