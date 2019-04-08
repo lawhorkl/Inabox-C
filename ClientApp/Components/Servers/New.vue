@@ -1,34 +1,5 @@
 <template>
-    <div>
-        <v-form>
-            <v-text-field
-                v-model="userId"
-                :counter="5"
-                label = "User ID"
-                required></v-text-field>
-            <v-text-field
-                v-model="name"
-                :counter="10"
-                label = "Server Name"
-                required></v-text-field>
-            <v-text-field
-                v-model="hostname"
-                :counter="10"
-                label = "Server Hostname"
-                required></v-text-field>
-            <v-text-field
-                v-model="port"
-                label= "Port"
-                required></v-text-field>
-            <v-checkbox
-                v-model="active"
-                label = "Active"
-                type = "checkbox"
-                required></v-checkbox>
 
-                <v-btn @click="submitClicked">Submit</v-btn>
-        </v-form>
-    </div>
 </template>
 
 <script>

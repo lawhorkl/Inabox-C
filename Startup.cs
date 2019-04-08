@@ -35,7 +35,7 @@ namespace Inabox
             });
 
             services.AddDbContext<InaboxContext>(opt =>
-                opt.UseInMemoryDatabase("Inabox"));
+                opt.UseMySql("Server=localhost;Database=inabox_dev;User=root;"));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 

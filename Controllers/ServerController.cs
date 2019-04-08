@@ -22,15 +22,7 @@ namespace Inabox.Controllers
             {
                 // Create a new TodoItem if collection is empty,
                 // which means you can't delete all Servers.
-                _context.Servers.Add(new Server { 
-                    Name = "Item1",
-                    Hostname = "localhost",
-                    Port = 5001,
-                    Active = false,
-                    History = new List<ServerHistory>()
-                });
-                Console.WriteLine("called");
-                _context.SaveChanges();
+                
             }
         }
         // GET: api/Server

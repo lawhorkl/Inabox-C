@@ -1,12 +1,5 @@
 <template>
-    <div>
-        <ag-grid-vue style="width: 1000px; height: 500px;"
-                 class="ag-theme-balham"
-                 :columnDefs="columnDefs"
-                 :rowData="servers"
-                 :rowSelection="single">
-        </ag-grid-vue>
-    </div>
+
 </template>
 
 <script>
